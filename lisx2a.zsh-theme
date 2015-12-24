@@ -1,4 +1,4 @@
-PROMPT='$FG[154]☺$fg[cyan]lisx2a $fg[yellow]$(get_pwd)$(put_spacing)$(git_prompt_info)
+PROMPT='$FG[154]☺ $fg[yellow]$(get_pwd)$(put_spacing)$(git_prompt_info)
 $reset_color=>'
 function get_pwd() {
 	   echo "${PWD/$HOME/~}"
